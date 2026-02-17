@@ -1,0 +1,26 @@
+name: RNNExplore_TF2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  
+  # Core packages via conda
+  - numpy>=1.19.2
+  - pandas>=1.1.3
+  - scipy>=1.5.0
+  - matplotlib>=3.3.0
+  - seaborn>=0.11.0
+  - notebook
+  - pyarrow
+  - scikit-learn
+  - tqdm
+  
+  # Optional development tools
+  - spyder
+  
+  # Install TensorFlow via pip (better compatibility)
+  - pip:
+    - tensorflow>=2.4.0
+    - tensorboard>=2.4.0

@@ -1,0 +1,33 @@
+# TensorFlow 2 Requirements
+# Install with: pip install -r requirements_tf2.txt
+
+# Core deep learning framework
+tensorflow>=2.4.0,<3.0.0
+
+# Numerical computing
+numpy>=1.19.2,<2.0.0
+
+# Data manipulation
+pandas>=1.1.3
+
+# Scientific computing
+scipy>=1.5.0
+
+# Jupyter notebook support (optional)
+notebook>=6.0.0
+
+# Visualization (optional)
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Progress bars (optional)
+tqdm>=4.50.0
+
+# ML utilities (optional)
+scikit-learn>=0.24.0
+
+# For bandit data handling
+pyarrow>=2.0.0
+
+# TensorBoard for monitoring
+tensorboard>=2.4.0
